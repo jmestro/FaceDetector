@@ -1,0 +1,8 @@
+FaceDetector
+Copyright 2019, Mizmovac, Inc.
+
+This product includes software developed by
+Copyright (c) 2018 Wei Wang (Kingfisher)
+
+This product relies on output from software developed by
+Copyright (c) 2015-2018 Hardik Vasa (Google Images Download)
