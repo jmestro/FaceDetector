@@ -110,7 +110,7 @@ Delete the sample code in the editor and replace it with this:
 
 Just below the last line in the code you entered, notice a small circled triangle button. Press this to invoke the neural network builder user interface. After a moment you should see the following in the right-hand pane:
 
-![image classifier](imageClassifier.png)
+![image classifier](Documentation/imageClassifier.png)
 
 Open a *Finder* window and drag your **Training Set** folder into the dashed space labeled **Drop Images To Begin Training**. *Xcode* should quickly flash pictures of your faces as they are processed by the training engine. When it is complete, you will get a report about the accuracy of the training session.
 
@@ -144,7 +144,7 @@ Adding more images helps. Vary your search requests so that it’s more than jus
 
 Before dragging your training images into the neural network builder, press the downward pointing caret to expose training options.
 
-![image classifier options](imageClassifierOptions.png)
+![image classifier options](Documentation/imageClassifierOptions.png)
 
 From here you can specify how many training iterations to conduct. Usually, the more, the better, but there is an upper bound to improvement. Also, you can alter the images it trains with by introducing alterations, such as a skew or blur. These help to simulate a greater variety of images.
 
