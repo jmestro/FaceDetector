@@ -46,14 +46,14 @@ final class ItemManagement {
 		}
 		
 		clearAllItems()
-		searchPhotoItems.append(contentsOf: gatherUrls(from: personUrls.faceCandidatesUrl))
+		searchPhotoItems.append(contentsOf: gatherUrls(from: personUrls.faceCandidatesUrl, optionalPrefix: "Image URL: "))
 		searchPhotoItems.append(contentsOf: gatherUrls(from: personUrls.faceCandidatesPendingReview))
 		trainingItems.append(contentsOf: gatherUrls(from: personUrls.faceCandidatesAssignmentsUrl))
 		verificationItems.append(contentsOf: gatherUrls(from: peopleMang.verficationUrl!))
 		trainingFaces.append(contentsOf: gatherFaces(from: personUrls.trainingFaces))
 		testFaces.append(contentsOf: gatherFaces(from: personUrls.testFaces))
 	}
-	
+
 	public func persistUrls(for person: String) {
 		guard let personUrls = peopleMang.people?[person] else { return }
 		
